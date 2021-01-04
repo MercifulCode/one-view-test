@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableRow Should render when given no data 1`] = `
+<tr
+  onClick={[Function]}
+/>
+`;
+
+exports[`TableRow Should render when given some data 1`] = `
+<tr
+  onClick={[Function]}
+>
+  <td
+    key="0"
+  >
+    One
+  </td>
+  <td
+    key="1"
+  >
+    Two
+  </td>
+</tr>
+`;

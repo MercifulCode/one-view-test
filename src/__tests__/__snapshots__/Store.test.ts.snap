@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Store Should match the existing snapshot. 1`] = `
+Object {
+  "dispatch": [Function],
+  "getState": [Function],
+  "replaceReducer": [Function],
+  "subscribe": [Function],
+  Symbol(observable): [Function],
+}
+`;

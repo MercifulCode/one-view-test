@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserTable Should render when given no data 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <label>
+      Filter By Name:
+      <br />
+      <input
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </label>
+    <input
+      type="submit"
+      value="Submit"
+    />
+  </form>
+  <table>
+    <thead>
+      <TableRow
+        cellContent={
+          Array [
+            "Name",
+            "Email",
+            "City",
+            "Company",
+          ]
+        }
+      />
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;
+
+exports[`UserTable Should render when given some data 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <label>
+      Filter By Name:
+      <br />
+      <input
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </label>
+    <input
+      type="submit"
+      value="Submit"
+    />
+  </form>
+  <table>
+    <thead>
+      <TableRow
+        cellContent={
+          Array [
+            "Name",
+            "Email",
+            "City",
+            "Company",
+          ]
+        }
+      />
+    </thead>
+    <tbody>
+      <TableRow
+        cellContent={
+          Array [
+            "Homer Simpson",
+            "chunkylover53@aol.com",
+            "Springfield",
+            "Nuclear Power Plant",
+          ]
+        }
+        key="user_table_row_0"
+        onClick={[Function]}
+      />
+    </tbody>
+  </table>
+</div>
+`;
